@@ -1,0 +1,23 @@
+.single-footer ul{
+    list-style-type: none;
+   }
+   .single-footer ul li{
+     margin-bottom: 10px;
+     position: relative;
+     padding-left: 20px;
+    }
+    .single-footer ul li a{
+        color: #757575;
+       text-transform: capitalize;
+       text-decoration: none;
+       font-family: "Raleway", sans-serif;
+       
+   }
+   .single-footer ul li a:hover{
+       color:rgb(185, 52, 130);
+   }
+   .single-footer ul li a i{
+      position: absolute;
+      left: 0;
+      top: 5px;
+   }

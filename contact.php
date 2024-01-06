@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<title>Vatsal Group- Contact us</title>
+
+   <?php include'include/head-links.php';?>
+</head>
+
+<body>
+<!-- Body main wrapper start -->
+<div class="wrapper fix">
+
+<?php include'include/header.php';?>
+
+    <!-- Page Banner Area Start -->
+    <div class="page-banner-area overlay">
+        <div class="container">
+            <div class="row">
+                <div class="page-banner section-padding-sm col-12">
+                    <h1 class="title">Contact us</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner Area End -->
+    <!-- Contact Area Start -->
+    <div id="contact-area" class="contact-area bg-white section section-padding">
+        <div class="container">
+            <div class="row mb-n30">
+               
+                <div class="col-lg-6 col-12 mb-30">
+                <h1>Drop Your Enquiry</h1>
+                    <div class="contact-form">
+                        <form id="contact-form" action="https://demo.hasthemes.com/sopnovilla-preview/sopnovilla/php/mail.php" method="post">
+                            <div class="input-box-2">
+                                <div class="input-box"><input type="text" name="name" placeholder="Name"></div>
+                                <div class="input-box"><input type="email" name="email" placeholder="Email"></div>
+                                <div class="input-box"><input type="text" name="phone" placeholder="Phone"></div>
+                                <div class="input-box"><input type="text" name="subject" placeholder="Subject"></div>
+                            </div>
+                            <div class="input-box"><textarea name="message" placeholder="Message"></textarea></div>
+                            <div class="input-box submit-box"><input type="submit" value="submit"></div>
+                        </form>
+                        <p class="form-messege d-flex"></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mb-30">
+                   <h1>Reach us</h1>
+                   <div class="single-footer">
+                   
+                   <ul>
+                       <li>
+                           <a href="#"><i class="fa fa-map-marker"></i></i>
+                           Corporate Office:Plot No-15,Vidthyak Nagar,<br> 
+                           Lalkohti Scheme,Jaipur-302005
+                           </a>
+                       </li>
+                       
+                       <li>
+                           <a href="mailto:groupvatsal@gmail.com"><i class="fa fa-envelope"></i></i>
+                           Email:groupvatsal@gmail.com
+                           </a>
+                       </li>
+                       <li>
+                           <a href="tel:+9101416657488"><i class="fa fa-phone"></i></i>
+                           Ph:+91 0141-6657488
+                           </a>
+                       </li>
+                       
+
+                   </ul>
+
+               </div>
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Contact Area End -->
+
+    <!-- Newsletter Area Start -->
+    <?php include'include/news-area.php';?>
+    <!-- Newsletter Area End -->
+
+    <!-- Footer Area Start -->
+    <?php include'include/footer.php';?>
+    <!-- Footer Area End -->
+</div>
+<!-- Body main wrapper end -->
+</body>
+
+
+<!-- Mirrored from demo.hasthemes.com/sopnovilla-preview/sopnovilla/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Apr 2021 10:41:55 GMT -->
+</html>
